@@ -8,6 +8,20 @@ ul {
   margin: 0px;
 }
 
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main {
+  height: 100%;
+}
+
+.mainContainer > footer{
+  background-color: red;
+  padding: 10px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -70,7 +84,7 @@ ul {
 }
 
 .buscar > input {
-  outline: none;
+  outline: none; /*←---------------------*/
   border: 0px;
 }
 
@@ -109,7 +123,7 @@ ul {
 }
 
 .contenedorImagen > img {
-  object-fit: cover;
+  object-fit: cover;/*←---------------------*/
   width: 100%;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
